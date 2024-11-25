@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.field {
+    perspective: 1000px;
+    position: relative;
+    height: 1280px;
+    width: 1920px;
+    zoom: 0.25;
+    display: none;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+.court {
+    position: absolute;
+    width: 1469.22px;
+    height: 707.37px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 230px;
+    transform: rotateX(13.75deg);
+    transform-style: preserve-3d;
+    z-index: 1;
+    background-size: 100% 100%;
+    background-position: center;
+}
