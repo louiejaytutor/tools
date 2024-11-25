@@ -48,7 +48,6 @@ generate_button.on("click", function() {
     }
     else {
         field.show();
-        save_button.show();
     }
 });
 
