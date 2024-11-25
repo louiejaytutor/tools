@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Stickman Basketball Court Maker</title>
+</head>
+<body>
+    <div id="inputs-container">
+        <div class="mb-3 border">
+            <label class="form-label">Court</label>
+            <input type="file" id="court-input">
+        </div>
+        <div class="mb-3 border">
+            <label class="form-label">Field</label>
+            <input type="file" id="field-input">
+        </div>
+        <div class="mb-3">
+            <button type="button" id="generate-btn">Generate Field</button>
+            <button id="save-btn" style="display: none;">Save Field</button>
+        </div>
+    </div>
+    <div id="field" class="field">
+        <div id="court" class="court"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
