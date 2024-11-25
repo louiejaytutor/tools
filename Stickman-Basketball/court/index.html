@@ -9,10 +9,18 @@
 </head>
 <body>
     <div id="inputs-container">
-        <input type="file" id="court-input">
-        <input type="file" id="field-input">
-        <button type="button" id="generate-btn">Generate Field</button>
-        <button id="save-btn" style="display: none;">Save Field</button>
+        <div class="mb-3 border">
+            <label class="form-label">Court</label>
+            <input type="file" id="court-input">
+        </div>
+        <div class="mb-3 border">
+            <label class="form-label">Field</label>
+            <input type="file" id="field-input">
+        </div>
+        <div class="mb-3">
+            <button type="button" id="generate-btn">Generate Field</button>
+            <button id="save-btn" style="display: none;">Save Field</button>
+        </div>
     </div>
     <div id="field" class="field">
         <div id="court" class="court"></div>
